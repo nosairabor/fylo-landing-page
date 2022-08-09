@@ -430,6 +430,7 @@ a {
 @media (max-width: 500px) {
   .container {
     background-color: hsl(217, 28%, 15%);
+    overflow-x: auto;
   }
   #page-logo {
     width: 115px;
