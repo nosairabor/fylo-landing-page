@@ -629,6 +629,7 @@ a {
   }
   .footer-section {
     opacity: 0.9;
+    width: 100%;
   }
   #footer-logo {
     width: 170px;
