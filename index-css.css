@@ -680,7 +680,7 @@ a {
   .footer-icons {
     display: flex;
     justify-content: center;
-    margin-left: -10px;
+    margin: 0 auto;
     margin-top: 70px;
   } 
 }
@@ -938,7 +938,7 @@ a {
   .footer-icons {
     display: flex;
     justify-content: center;
-    margin-left: -10px;
+    margin: 0 auto;
     margin-top: 70px;
   } 
 
