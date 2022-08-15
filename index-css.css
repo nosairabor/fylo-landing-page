@@ -438,25 +438,19 @@ a {
     height: 25px;
     margin-left: 10px;
   }
-  .navbar {
-
-  }
   .navbar ul {
     font-size: 13px;
-    margin-right: 50px;
+    margin-right: 20px;
   }
   .navbar ul li {
     margin-left: 30px;
   }
-
   .intro-section2 {
     display: grid;
-    justify-content: left;
   }
   .illustration-intro-pic {
-    height: 400px;
+    height: auto;
     width: 320px;
-    margin-left: 0px;
     margin-top: 40px;
     z-index: 1;
   }
@@ -470,7 +464,6 @@ a {
   .h1-intro-mediaquery {
     display: block;
     justify-self: center;
-    margin-left: 25px;
     font-size: 25px;
     z-index: 1;
   }
@@ -485,7 +478,7 @@ a {
     position: relative;
     z-index: 0;
     width: 100%;
-    margin-top: -430px;
+    margin-top: -425px;
   
   }
   .p-layout {
@@ -501,7 +494,6 @@ a {
     opacity: 0.9;
     position: relative;
     z-index: 1;
-    margin-left: 30px;
     justify-self: center;
     font-size: 15px;
   }
@@ -522,34 +514,27 @@ a {
     z-index: 1;
     cursor: pointer;
     display: block;
-    margin-left: 20px;
     margin-bottom: 70px;
   }
   .get-started-button {
     display: none;
   }
   .second-section {
-    margin-top: -290px;
-    display: grid;
-    justify-content: left;
+    margin-top: -297px;
+    display: flex;
+    flex-direction: column;
     font-size: 14px;
   }
   .second-section1 {
     margin-top: 300px;
     display: flex;
     flex-direction: column;
-    margin-left: -30px;
+    align-items: center;
   }
   .second-section2 {
     display: flex;
     flex-direction: column;
-    margin-left: -30px;
-  }
-  .sub-second-section1 {
-    margin-left: 55px;
-  }
-  .sub-second-section2 {
-    margin-left: 55px;
+    align-items: center;
   }
   .p-mobile-sub-section {
     display: block;
@@ -565,6 +550,7 @@ a {
   }
   .sub-second-section1c {
     margin-bottom: 70px;
+    margin-top: 50px;
   }
   .stay-productive-section {
     display: flex;
@@ -609,7 +595,7 @@ a {
     padding: 0 10px 0 10px;
   }
   .Testimonial-sub-section {
-    margin-left: 22px;
+    margin: 0 auto;
     width: 320px;
   }
   .testimonial-profile,.testimonial-profile-position{
@@ -632,7 +618,7 @@ a {
   .sign-up-sub-section {
     width: 325px;
     border-radius: 20px;
-    margin-left: -26px;
+    margin: 0 auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
   }
   .h1-signup-section {
@@ -721,12 +707,12 @@ a {
 
   .intro-section2 {
     display: grid;
-    justify-content: left;
+    margin: 0 auto;
+    width: 100%;
   }
   .illustration-intro-pic {
-    height: 400px;
+    height: auto;
     width: 380px;
-    margin-left: 10px;
     margin-top: 40px;
     z-index: 1;
   }
@@ -740,7 +726,6 @@ a {
   .h1-intro-mediaquery {
     display: block;
     justify-self: center;
-    margin-left: 25px;
     font-size: 27px;
     z-index: 1;
   }
@@ -770,7 +755,7 @@ a {
     opacity: 0.9;
     position: relative;
     z-index: 1;
-    margin-left: 30px;
+    
     justify-self: center;
     font-size: 16px;
   }
@@ -791,7 +776,7 @@ a {
     z-index: 1;
     cursor: pointer;
     display: block;
-    margin-left: 50px;
+    
     margin-bottom: 70px;
   }
   .get-started-button {
@@ -799,27 +784,22 @@ a {
   }
   .second-section {
     margin-top: -290px;
-    display: grid;
-    justify-content: left;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
   }
   .second-section1 {
     margin-top: 300px;
     display: flex;
     flex-direction: column;
-    margin-left: -20px;
+    align-items: center;
   }
   .second-section2 {
     display: flex;
     flex-direction: column;
-    margin-left: -10px;
+    align-items: center;
   }
-  .sub-second-section1 {
-    margin-left: 55px;
-  }
-  .sub-second-section2 {
-    margin-left: 55px;
-  }
+ 
   .p-mobile-sub-section {
     display: block;
     justify-self: center;
@@ -834,6 +814,7 @@ a {
   }
   .sub-second-section1c {
     margin-bottom: 70px;
+    margin-top: 50px;
   }
   .stay-productive-section {
     display: flex;
@@ -871,7 +852,7 @@ a {
     padding: 0 10px 0 10px;
   }
   .Testimonial-sub-section {
-    margin-left: 30px;
+    margin: 0 auto;
     width: 350px;
   }
   .testimonial-profile,.testimonial-profile-position{
@@ -896,6 +877,8 @@ a {
     border-radius: 20px;
     margin-left: -20px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    opacity: 1;
   }
   .h1-signup-section {
     font-size: 30px;
