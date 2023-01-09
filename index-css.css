@@ -128,12 +128,16 @@ a {
   font-size: 16px;
 }
 .second-section1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 40px;
   margin-top: -80px;
   position: relative;
 }
 .second-section2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 40px;
   margin-top: 80px;
 }
 .sub-second-section1 {
