@@ -144,12 +144,7 @@ a {
   display: grid;
   margin-left: 100px;
 }
-.sub-second-section1a {
-  margin-right: 40px;
-}
-.sub-second-section1c {
-  margin-right: 40px;
-}
+
 .p-sub-section {
   justify-self: center;
   opacity: 0.9;
@@ -581,12 +576,7 @@ a {
   .h1-productive-section{
     font-size: 30px;
   }
-  .sub-second-section1a {
-    margin-right: 0px;
-  }
-  .sub-second-section1c {
-    margin-right: 0px;
-  }
+
   .fylo-text-link{
     font-size: 15px;
   }
@@ -822,12 +812,10 @@ a {
   }
   .sub-second-section1a {
     margin-bottom: 70px;
-    margin-right: 0px;
   }
   .sub-second-section1c {
     margin-bottom: 70px;
     margin-top: 50px;
-    margin-right: 0px;
   }
   .stay-productive-section {
     display: flex;
